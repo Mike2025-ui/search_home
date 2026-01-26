@@ -21,7 +21,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('search_home.urls')),
 ]
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-]
